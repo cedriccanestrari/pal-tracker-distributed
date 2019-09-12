@@ -26,4 +26,9 @@ public class ProjectClient {
 
         return pi;
     }
+
+
+    public ProjectInfo getProjectFromCache(long projectId) {
+        return projects.get(projectId);
+    }
 }
